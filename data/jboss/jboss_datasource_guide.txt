@@ -1,0 +1,14 @@
+JBoss Datasource Troubleshooting
+
+
+A datasource provides application access to a configured database.
+
+When datasource initialization fails, the application may also fail
+to deploy or start correctly.
+
+Common investigation areas include database connectivity, datasource
+configuration, credentials, network reachability, connection pool
+configuration, and database listener availability.
+
+The server log should be correlated with database-side information
+before determining the root cause.

@@ -1,0 +1,13 @@
+JBoss Startup Troubleshooting
+
+
+JBoss application servers perform multiple initialization steps
+during startup. A startup failure should be investigated by reviewing
+the server log and identifying the first meaningful error.
+
+Errors reported near the end of a startup sequence may be symptoms
+rather than the original cause.
+
+When investigating startup problems, check configuration validity,
+required subsystems, datasource initialization, network dependencies,
+and deployment status.

@@ -1,0 +1,12 @@
+Root Cause Analysis Guidelines
+
+
+Root cause analysis should distinguish between the original failure
+and downstream symptoms.
+
+For example, a database connectivity problem may cause datasource
+initialization to fail, which may then cause application deployment
+to fail.
+
+The investigation should therefore follow the dependency chain
+rather than treating the final error as the root cause.

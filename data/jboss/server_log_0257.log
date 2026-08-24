@@ -1,0 +1,6 @@
+2026-02-02T06:25:00 INFO  [server] Starting JBoss EAP 7.4
+2026-02-02T06:25:00 INFO  [server] Initializing server subsystems
+2026-02-02T06:25:00 INFO  [datasource] Initializing datasource
+2026-02-02T06:25:00 WARN [application] Request processing exceeded threshold
+2026-02-02T06:25:00 ERROR [application] Error Code: APP-TIMEOUT-001
+2026-02-02T06:25:00 INFO  [server] Incident reference: INC-1057

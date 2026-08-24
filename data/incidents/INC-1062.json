@@ -1,0 +1,18 @@
+{
+    "incident_id": "INC-1062",
+    "timestamp": "2026-01-02T01:34:00",
+    "environment": "QA",
+    "application": "TransactionService",
+    "server": "APP-SRV-03",
+    "jboss_version": "7.4",
+    "error_code": "APP-TIMEOUT-001",
+    "symptom": "Application Request Timeout",
+    "description": "Synthetic incident representing Application Request Timeout.",
+    "recommended_checks": [
+        "Check application logs.",
+        "Check downstream service availability.",
+        "Review database response time.",
+        "Check connection pool usage.",
+        "Review infrastructure metrics."
+    ]
+}

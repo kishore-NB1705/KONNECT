@@ -1,0 +1,9 @@
+Application Timeout Troubleshooting
+
+
+Application request timeouts can result from slow downstream
+dependencies, database response delays, connection pool exhaustion
+or infrastructure issues.
+
+The investigation should begin with the request timestamp and then
+correlate application, middleware and dependency logs.

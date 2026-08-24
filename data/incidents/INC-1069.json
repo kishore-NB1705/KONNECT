@@ -1,0 +1,17 @@
+{
+    "incident_id": "INC-1069",
+    "timestamp": "2026-01-02T03:33:00",
+    "environment": "DEV",
+    "application": "ReportingService",
+    "server": "APP-SRV-01",
+    "jboss_version": "7.4",
+    "error_code": "DB-LISTENER-001",
+    "symptom": "Database Listener Unavailable",
+    "description": "Synthetic incident representing Database Listener Unavailable.",
+    "recommended_checks": [
+        "Verify listener availability.",
+        "Verify database host connectivity.",
+        "Check listener configuration.",
+        "Review database server logs."
+    ]
+}

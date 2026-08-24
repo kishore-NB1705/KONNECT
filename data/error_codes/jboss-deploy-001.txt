@@ -1,0 +1,18 @@
+Error Code: JBOSS-DEPLOY-001
+
+Title:
+Application Deployment Failure
+
+Domain:
+jboss
+
+Description:
+The application deployment could not be completed because one or more deployment dependencies failed.
+
+Recommended Investigation:
+
+- Review deployment errors.
+- Check application dependencies.
+- Verify datasource availability.
+- Validate deployment descriptors.
+- Review JBoss server logs.

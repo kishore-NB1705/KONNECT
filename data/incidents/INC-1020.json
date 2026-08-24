@@ -1,0 +1,17 @@
+{
+    "incident_id": "INC-1020",
+    "timestamp": "2026-01-01T13:40:00",
+    "environment": "UAT",
+    "application": "AccountService",
+    "server": "APP-SRV-01",
+    "jboss_version": "7.4",
+    "error_code": "DB-LISTENER-001",
+    "symptom": "Database Listener Unavailable",
+    "description": "Synthetic incident representing Database Listener Unavailable.",
+    "recommended_checks": [
+        "Verify listener availability.",
+        "Verify database host connectivity.",
+        "Check listener configuration.",
+        "Review database server logs."
+    ]
+}

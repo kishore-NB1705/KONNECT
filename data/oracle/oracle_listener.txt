@@ -1,0 +1,10 @@
+Oracle Listener Troubleshooting
+
+
+The database listener accepts incoming connection requests.
+
+If the listener is unavailable, applications attempting to establish
+new database connections may report connection failures.
+
+The investigation should verify listener availability, database host
+reachability and listener configuration.

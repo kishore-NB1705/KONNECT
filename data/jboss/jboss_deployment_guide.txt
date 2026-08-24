@@ -1,0 +1,12 @@
+JBoss Deployment Troubleshooting
+
+
+Application deployment depends on successful initialization of the
+required server subsystems and application dependencies.
+
+A deployment failure should be investigated by reviewing the deployment
+message, dependent datasource status, application configuration and
+the server log.
+
+If a deployment depends on a database and the datasource cannot
+initialize, the deployment can fail as a downstream effect.

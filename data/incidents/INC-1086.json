@@ -1,0 +1,18 @@
+{
+    "incident_id": "INC-1086",
+    "timestamp": "2026-01-02T08:22:00",
+    "environment": "DEV",
+    "application": "PaymentService",
+    "server": "APP-SRV-01",
+    "jboss_version": "7.4",
+    "error_code": "DB-CONNECTION-001",
+    "symptom": "Database Connection Failure",
+    "description": "Synthetic incident representing Database Connection Failure.",
+    "recommended_checks": [
+        "Verify database availability.",
+        "Verify datasource configuration.",
+        "Check database listener status.",
+        "Verify network connectivity.",
+        "Check configured database credentials."
+    ]
+}

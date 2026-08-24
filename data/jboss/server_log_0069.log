@@ -1,0 +1,7 @@
+2026-02-01T14:45:00 INFO  [server] Starting JBoss EAP 7.4
+2026-02-01T14:45:00 INFO  [server] Initializing server subsystems
+2026-02-01T14:45:00 INFO  [datasource] Initializing datasource
+2026-02-01T14:45:00 ERROR [server] Server subsystem initialization failed
+2026-02-01T14:45:00 ERROR [server] Error Code: JBOSS-STARTUP-001
+2026-02-01T14:45:00 ERROR [server] Server startup aborted
+2026-02-01T14:45:00 INFO  [server] Incident reference: INC-1069

@@ -1,0 +1,11 @@
+Application Connectivity Troubleshooting
+
+
+Application connectivity issues should be investigated across the
+application, middleware and dependent services.
+
+A database connectivity failure can appear as an application startup
+or deployment failure.
+
+Engineers should correlate timestamps across application logs,
+middleware logs and dependent service information.

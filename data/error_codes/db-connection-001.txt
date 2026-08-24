@@ -1,0 +1,18 @@
+Error Code: DB-CONNECTION-001
+
+Title:
+Database Connection Failure
+
+Domain:
+oracle
+
+Description:
+The application server is unable to establish a connection to the configured database.
+
+Recommended Investigation:
+
+- Verify database availability.
+- Verify datasource configuration.
+- Check database listener status.
+- Verify network connectivity.
+- Check configured database credentials.

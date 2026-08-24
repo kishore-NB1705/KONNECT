@@ -1,0 +1,18 @@
+Error Code: APP-TIMEOUT-001
+
+Title:
+Application Request Timeout
+
+Domain:
+application
+
+Description:
+The application request exceeded the expected response time.
+
+Recommended Investigation:
+
+- Check application logs.
+- Check downstream service availability.
+- Review database response time.
+- Check connection pool usage.
+- Review infrastructure metrics.

@@ -1,0 +1,18 @@
+{
+    "incident_id": "INC-1033",
+    "timestamp": "2026-01-01T17:21:00",
+    "environment": "PROD-SIMULATION",
+    "application": "CustomerService",
+    "server": "APP-SRV-03",
+    "jboss_version": "7.4",
+    "error_code": "JBOSS-STARTUP-001",
+    "symptom": "JBoss Startup Failure",
+    "description": "Synthetic incident representing JBoss Startup Failure.",
+    "recommended_checks": [
+        "Review the server startup log.",
+        "Check the affected subsystem.",
+        "Validate the server configuration.",
+        "Check dependent services.",
+        "Review errors reported before shutdown."
+    ]
+}

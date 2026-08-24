@@ -1,0 +1,18 @@
+{
+    "incident_id": "INC-1079",
+    "timestamp": "2026-01-02T06:23:00",
+    "environment": "DEV",
+    "application": "CustomerService",
+    "server": "APP-SRV-02",
+    "jboss_version": "7.4",
+    "error_code": "JBOSS-DEPLOY-001",
+    "symptom": "Application Deployment Failure",
+    "description": "Synthetic incident representing Application Deployment Failure.",
+    "recommended_checks": [
+        "Review deployment errors.",
+        "Check application dependencies.",
+        "Verify datasource availability.",
+        "Validate deployment descriptors.",
+        "Review JBoss server logs."
+    ]
+}

@@ -1,0 +1,18 @@
+Error Code: JBOSS-STARTUP-001
+
+Title:
+JBoss Startup Failure
+
+Domain:
+jboss
+
+Description:
+The JBoss server failed during startup because a required subsystem or configuration component could not initialize.
+
+Recommended Investigation:
+
+- Review the server startup log.
+- Check the affected subsystem.
+- Validate the server configuration.
+- Check dependent services.
+- Review errors reported before shutdown.

@@ -1,0 +1,7 @@
+2026-02-01T15:25:00 INFO  [server] Starting JBoss EAP 7.4
+2026-02-01T15:25:00 INFO  [server] Initializing server subsystems
+2026-02-01T15:25:00 INFO  [datasource] Initializing datasource
+2026-02-01T15:25:00 ERROR [datasource] Database connection failed
+2026-02-01T15:25:00 ERROR [datasource] Error Code: DB-CONNECTION-001
+2026-02-01T15:25:00 ERROR [deployment] Application deployment failed
+2026-02-01T15:25:00 INFO  [server] Incident reference: INC-1077

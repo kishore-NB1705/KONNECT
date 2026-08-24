@@ -1,0 +1,11 @@
+Enterprise Incident Investigation
+
+
+Incident investigation should begin with the observed symptom.
+
+The first reported error is not always the root cause. Engineers
+should correlate logs, error references, infrastructure information
+and dependent-system documentation.
+
+A reliable diagnosis should identify supporting evidence before
+recommending corrective action.

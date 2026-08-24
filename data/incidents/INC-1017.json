@@ -1,0 +1,18 @@
+{
+    "incident_id": "INC-1017",
+    "timestamp": "2026-01-01T12:49:00",
+    "environment": "QA",
+    "application": "PaymentService",
+    "server": "APP-SRV-03",
+    "jboss_version": "7.4",
+    "error_code": "JBOSS-DEPLOY-001",
+    "symptom": "Application Deployment Failure",
+    "description": "Synthetic incident representing Application Deployment Failure.",
+    "recommended_checks": [
+        "Review deployment errors.",
+        "Check application dependencies.",
+        "Verify datasource availability.",
+        "Validate deployment descriptors.",
+        "Review JBoss server logs."
+    ]
+}

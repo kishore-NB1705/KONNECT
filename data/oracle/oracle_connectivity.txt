@@ -1,0 +1,11 @@
+Oracle Connectivity Troubleshooting
+
+
+Database connectivity problems can prevent application servers from
+establishing new database sessions.
+
+Investigation should include database availability, listener status,
+network connectivity, configured connection details and credentials.
+
+Application-side connection errors should be correlated with database
+and listener information before determining the root cause.

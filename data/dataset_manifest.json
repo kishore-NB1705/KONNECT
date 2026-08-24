@@ -1,0 +1,16 @@
+{
+    "project": "KONNECT",
+    "dataset_type": "synthetic",
+    "purpose": "Enterprise application and infrastructure knowledge retrieval and troubleshooting",
+    "domains": [
+        "jboss",
+        "oracle",
+        "application",
+        "incidents",
+        "error_codes",
+        "troubleshooting"
+    ],
+    "contains_employer_data": false,
+    "contains_production_logs": false,
+    "generated_for": "KONNECT RAG demonstration"
+}

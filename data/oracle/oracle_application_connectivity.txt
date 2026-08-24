@@ -1,0 +1,10 @@
+Application Database Connectivity
+
+
+An application database connection depends on multiple components.
+
+The application configuration must identify the correct database
+endpoint. Network connectivity must be available, the database must
+be reachable, and the listener must accept connections.
+
+A failure at any layer can appear as an application database error.
