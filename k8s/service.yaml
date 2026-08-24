@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+
+metadata:
+  name: konnect-service
+  namespace: konnect
+
+spec:
+  selector:
+    app: konnect
+
+  ports:
+    - port: 8000
+      targetPort: 8000
+
+  type: ClusterIP

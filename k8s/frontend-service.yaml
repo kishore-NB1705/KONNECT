@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+
+metadata:
+  name: konnect-frontend-service
+  namespace: konnect
+
+spec:
+
+  type: ClusterIP
+
+  selector:
+    app: konnect-frontend
+
+  ports:
+
+    - port: 80
+      targetPort: 80

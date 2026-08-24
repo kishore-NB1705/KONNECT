@@ -1,0 +1,40 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+
+metadata:
+  name: konnect-ingress
+  namespace: konnect
+
+  annotations:
+    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+
+spec:
+
+  ingressClassName: nginx
+
+  rules:
+
+    - http:
+
+        paths:
+
+          - path: /api
+            pathType: Prefix
+
+            backend:
+
+              service:
+                name: konnect-service
+                port:
+                  number: 8000
+
+
+          - path: /
+            pathType: Prefix
+
+            backend:
+
+              service:
+                name: konnect-frontend-service
+                port:
+                  number: 80

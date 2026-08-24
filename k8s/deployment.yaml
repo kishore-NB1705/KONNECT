@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: konnect
+  namespace: konnect
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: konnect
+
+  template:
+    metadata:
+      labels:
+        app: konnect
+
+    spec:
+      imagePullSecrets:
+        - name: ghcr-secret
+
+      containers:
+        - name: konnect
+          image: ghcr.io/kishore-nb1705/konnect:latest
+
+          ports:
+            - containerPort: 8000
+
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "500m"
+              memory: "512Mi"

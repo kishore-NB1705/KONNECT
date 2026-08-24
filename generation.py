@@ -1,5 +1,6 @@
 from langchain_ollama import ChatOllama
 import os
+from pathlib import Path
 
 from retrieval import (
     create_embedding_model,
@@ -559,11 +560,8 @@ def run_konnect(
     for item in final_results:
 
         if isinstance(item, tuple):
-
             document = item[0]
-
         else:
-
             document = item
 
         source = document.metadata.get(
@@ -571,9 +569,19 @@ def run_konnect(
             "unknown"
         )
 
-        sources.append(
-            source
+        file_name = document.metadata.get(
+            "file_name",
+            Path(source).name
         )
+
+        sources.append({
+            "file_name": file_name,
+            "source": source,
+            "chunk_id": document.metadata.get(
+                "chunk_id",
+                ""
+            )
+        })
 
     # ========================================================
     # 14. RETURN RESULT
